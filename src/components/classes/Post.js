@@ -48,8 +48,10 @@ class Post {
 
       if (event.key === "Backspace") {
         input.value = input.value.slice(0, -1);
+      } else if (event.code === "Space") {
+        input.value = input.value + " ";
       } else if (checkForKey || checkForNum) {
-        input.value = `${input.value}` + event.key;
+        input.value = input.value + event.key;
       }
 
       const filterPosts = posts.filter((post) =>
