@@ -1,0 +1,97 @@
+body {
+  font-family: "Arial Black", Gadget, sans-serif;
+  background-color: #b2beb5;
+}
+
+table {
+  border: 2px solid #000000;
+  background-color: #4a4a4a;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  border-collapse: collapse;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+table td,
+table th {
+  border: 1px solid #4a4a4a;
+  padding: 3px 2px;
+}
+
+table tbody td {
+  font-size: 13px;
+  color: #e6e6e6;
+}
+
+table tr:nth-child(even) {
+  background: #888888;
+}
+
+table thead {
+  background: #000000;
+  border-bottom: 3px solid #000000;
+}
+
+table thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #e6e6e6;
+  text-align: center;
+  border-left: 2px solid #4a4a4a;
+}
+
+table thead th:first-child {
+  border-left: none;
+}
+
+table tfoot {
+  font-size: 12px;
+  font-weight: bold;
+  color: #e6e6e6;
+  background: #000000;
+  border-top: 1px solid #4a4a4a;
+}
+
+.post-table {
+  margin-bottom: 10px;
+}
+
+.users-table:hover {
+  background-color: #b2beb5;
+  color: #000000;
+}
+
+#post-owner {
+  text-align: center;
+}
+
+#back-button {
+  margin: 0 auto;
+  display: block;
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+#filter-input {
+  font-family: inherit;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+  margin-bottom: 30px;
+}
