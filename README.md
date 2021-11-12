@@ -6,6 +6,10 @@ This is a single page app using vanilla js pulling from a [api](https://jsonplac
 
 I'm using Classes to hold all the info that I get from the API so I can easily manipulate the data on the DOM.
 
+## Live Site
+
+[Ksence Coding Challenge](https://deweyhammers.github.io/ksence-coding-challenge/)
+
 ## To Use The App
 
 Clone down the github Repo and then open up index.html
