@@ -8,7 +8,7 @@ I'm using Classes to hold all the info that I get from the API so I can easily m
 
 ## To Use The App
 
-Clone done the github Repo and then open up index.html
+Clone down the github Repo and then open up index.html
 
 ## Layout
 
